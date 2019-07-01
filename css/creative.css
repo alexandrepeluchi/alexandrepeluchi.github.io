@@ -280,6 +280,14 @@ header .header-content .header-content-inner p {
     -moz-transition: all 0.35s;
     transition: all 0.35s;
 }
+.btn-mensagem {
+  color: white;
+  background-color: #bd9975;
+}
+.btn-mensagem:hover {
+  color: white;
+  background-color: #9b724a;
+}
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open> .dropdown-toggle.btn-default {
     color: #27170a;
     background-color: #f2f2f2;
@@ -310,11 +318,16 @@ header .header-content .header-content-inner p {
         margin-top: 80%;
     }
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open> .dropdown-toggle.btn-primary {
-    color: rgba(255, 255, 255, 0.7);
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus> .dropdown-toggle.btn-primary {
+    color: rgba(255, 255, 255, 0.8);
     background-color: transparent;
     border-color: rgba(255, 255, 255, 0.7);
 }
+
+.btn-primary:active, .open {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
 .btn-primary:active, .btn-primary.active, .open> .dropdown-toggle.btn-primary {
     background-image: none;
 }
